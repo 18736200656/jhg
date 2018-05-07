@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>巨好够</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/fukuan.css">
+
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/distpicker.data.min.js"></script>
+<script type="text/javascript" src="js/distpicker.min.js"></script>
+
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/fukuan.js"></script>
+<body>
+<div class="top cen" ></div>
+<header class="cen">
+	<div class="mid">
+		<div class="top_right">
+			<a class="username" style="margin-right: 20px;">欢迎用户<b style="color: #ff6700">至尊宝</b>归来！</a>
+			<a href="#">在线客服</a><span>|</span>
+			<a href="#">商家入住</a><span>|</span>
+			<a href="#">帮助中心</a>
+		</div>
+	</div>
+</header>
+<section class="cen">
+	<div class="search_box mid">
+		<a href="index.html"><img src="img/logo1.png" class="logo1"></a>
+	</div>
+	<!-- 购物 -->
+	<div class="payment mid">
+		<div class="address_box">
+			<h3>收货地址</h3>
+			<div class="address">
+				<div class="add_address">
+				</div>
+				<!-- <div class="address_content">
+					<h3>gao</h3>
+					<p class="iphone">18736200656</p>
+					<p class="detail_address">
+						<span class="pro">河南省</span>
+						<span class="address_city">周口市</span>
+						<span class="address_district">西华县</span>
+						<span class="addess_jiedao">寂静法师法士大夫</span>
+						<span class="addess_code">222000</span>
+						<span class="addess_mark">公司</span>
+					</p>
+					<span style="color: #ff6700;position: absolute;right: 20px;
+					bottom:20px;font-size:16px;cursor:pointer;display: none; " class="xiugai">修改</span>
+				</div> -->
+			</div>
+		</div>
+		<ul class="send_time">
+			<li class="lab">配送方式</li>
+			<li>快递配送（免运费）</li>
+		</ul>
+		<ul class="send_time time">
+			<li class="lab">配送时间</li>
+			<li class="orange">不限送货时间：<span class="orange">周一到周日</span></li>
+			<li>工作日送货:<span>周一到周五</span></li>
+			<li>双休日、假日送货：<span>周六到周日</span></li>
+		</ul>
+		<ul class="send_time" style="border-bottom: 0">
+			<li class="lab" style="margin-left: 10px;">发票</li>
+			<li>
+				 <a href="javascript:;">电子发票</a>
+				 <a href="javascript:;">个人</a>
+				 <a href="javascript:;">商品</a>
+				 <a href="javascript:;">明细></a>
+			</li>
+		</ul>
+		<div class="goods_discount">
+			<h3>商品</h3>
+			<span class="goback"><a href="javascript:history.go(-1);">返回购物车 ></a></span>
+		</div>
+		<ul class="goods">
+			<li>
+				<div class="goods_name">
+					<img src="img/appliance.png" alt="">
+					<span>美国 A级赤松板材 3/4 4-6米</span>
+				</div>
+				<div class="goods_num">
+					<span class="goods_price">1500</span>元×<span class="num">1</span>
+				</div>
+				<div class="price">
+					<span>0.1</span>元
+				</div>
+			</li>
+
+		</ul>
+		<div class="goods_jisuan">
+			<div class="discount">
+				<div class="count_card">
+				使用优惠券	
+				</div>
+				<div class="count_card">
+				使用礼品卡	
+				</div>
+			</div>
+			<ul class="goods_total">
+				<li>
+					<div class="total_name">商品件数：</div>
+					<div class="taotal_price"><span class=" toatl_num">1</span>件</div>
+				</li>
+				<li>
+					<div class="total_name">金额合计：</div>
+					<div class="taotal_price"><span class="total_sum">0.1</span>元</div>
+				</li>
+				<li>
+					<div class="total_name">活动优惠：</div>
+					<div class="taotal_price">-0.00<span>元</span></div>
+				</li>
+				<li>
+					<div class="total_name">优惠折扣：</div>
+					<div class="taotal_price">-0<span>元</span></div>
+				</li>
+				<li>
+					<div class="total_name">运费：</div>
+					<div class="taotal_price">0<span>元</span></div>
+				</li>
+				<li class="last">
+					<div class="total_name">应付金额：</div>
+					<div class="taotal_price"><span class="total_toatl">1500</span>元</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="pay mid">
+		<button class="payBtn">去结算</button>
+	</div>
+	<div class="shop_guide cen">
+		<div class="mid shop_cen">
+			<dl>
+				<dt>
+					<img src="img/icon3.png">
+					购物指南
+				</dt>
+				<dd><a href="javascript:;">购物流程</a></dd>
+				<dd><a href="javascript:;">支付方式</a></dd>
+				<dd><a href="javascript:;">发票制度</a></dd>
+				<dd><a href="javascript:;">品牌排行榜</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<img src="img/icon4.png">
+					服务保障
+				</dt>
+				<dd><a href="javascript:;">100%正品</a></dd>
+				<dd><a href="javascript:;">免费送货</a></dd>
+				<dd><a href="javascript:;">正规发票</a></dd>
+				<dd><a href="javascript:;">7天退换</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<img src="img/icon5.png">
+					配送服务
+				</dt>
+				<dd><a href="javascript:;">配送范围</a></dd>
+				<dd><a href="javascript:;">验货与签收</a></dd>
+				<dd><a href="javascript:;">安装说明</a></dd>
+				<dd><a href="javascript:;">服务</a></dd>
+			
+			</dl>
+			<dl>
+				<dt>
+					<img src="img/icon6.png">
+					售后服务
+				</dt>
+				<dd><a href="javascript:;">退换货政策</a></dd>
+				<dd><a href="javascript:;">退换货流程</a></dd>
+				<dd><a href="javascript:;">退款方式和实效</a></dd>
+			</dl>
+		</div>
+	</div>
+	<footer class="cen">
+		<div class="footer_top">
+			<a href="javascript:;">关于我们</a><span>|</span>
+			<a href="javascript:;">联系我们</a><span>|</span>
+			<a href="javascript:;">友情链接</a><span>|</span>
+			<a href="javascript:;">商家入驻</a><span>|</span>
+			<a href="javascript:;">帮助中心</a><span>|</span>
+			<a href="javascript:;">意见反馈</a><span>|</span>
+			<a href="javascript:;">法律声明</a>
+		</div>
+		<strong>Copyright @ 2018 巨好购</strong>
+		<p>上海崇芮科技有限科技公司</p>
+		<p>沪ICP备17052214号-1</p>
+	</footer>
+</section>
+<div class="dialog">
+	<div class="cover"></div>
+	<div class="dialog_wrapper">
+		<header>添加收货地址
+			<span class="close">×</span>
+		</header>
+		<div class="dialog_content">
+			<form>
+				<div class="row">
+					<input type="text" class="name" placeholder="姓名">
+					<input type="text" class="phone" maxlength="11" placeholder="手机号">
+				</div>
+				<div class="row">
+					<div data-toggle="distpicker">
+					  <select data-province="---- 选择省 ----" class="province"></select>
+					  <select data-city="---- 选择市 ----" class="city"></select>
+					  <select data-district="---- 选择区 ----" class="district"></select>
+					</div>
+				</div>
+				<div class="row">
+					<textarea class="add_write" id="" cols="79" rows="4" placeholder="详细地址"></textarea>
+				</div>
+				<div class="row">
+					<input type="text" class="sendcode" placeholder="邮编">
+					<input type="text" class="addressmark" placeholder="地址标签 如：'家' '公司'">
+				</div>
+				
+			</form>
+		</div>
+		<footer>
+			<button class="sure btn">确定</button>
+			<button class="close btn" style="background: #b0b0b0;">取消</button>
+		</footer>
+	</div>
+</div>
+</body>
+</html>

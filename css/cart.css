@@ -1,0 +1,213 @@
+.shop_cart{
+	padding:23px;
+	background: #fff;
+	height: 570px;
+}
+.shop_cart .img_box{
+	width: 440px;
+	float: left;
+	position: relative;
+}
+.shop_cart .img_box .bigImg{
+	position: absolute;
+	top: 0;
+	left: 480px;
+	border:1px solid #777;
+	width: 440px;
+	height: 410px;
+	display: none;
+	overflow: hidden;
+	display: none;
+}
+.shop_cart .img_box .bigImg>img{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 220%;
+	height: 205%;
+}
+.shop_cart .img_box .img_container{
+	width: 440px;
+	height: 410px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.shop_cart .img_box .img_container .move{
+	width: 200px;
+	height: 200px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: move;
+	display: none;
+}
+.shop_cart .img_box .img_container .simg{
+	width: 100%;
+	height: 100%;
+}
+.shop_cart .img_box .img_list{
+	height: 64px;
+	width: 100%;
+}
+.shop_cart .img_box .img_list li{
+	float: left;
+	width: 77px;
+	height: 100%;
+	margin-right: 8px;
+}
+.shop_cart .img_box .img_list li:hover{
+	border:1px solid #359a20;
+}
+.shop_cart .img_box .img_list li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shop_cart .cart_info{
+	float: right;
+	width: 633px;
+}
+.shop_cart .cart_info .goods_title{
+	box-sizing: border-box;
+	height: 60px;
+	width: 100%;
+	font: 22px/60px '微软雅黑';
+	color: #fff;
+	padding-left: 25px;
+	background: #3ac03b;
+}
+.shop_cart .cart_info .goods_con{
+	background: #f5f5f5;
+	padding:20px;
+	box-sizing: border-box;
+}
+.shop_cart .cart_info .goods_con ul{
+	overflow: hidden;
+}
+.shop_cart .cart_info .goods_con ul li{
+	float: left;
+	font: 18px/22px '微软雅黑';
+	color: #000;
+	width: 140px;
+	margin-bottom: 20px;
+}
+.shop_cart .cart_info .goods_con .custom_server{
+	width: 428px;
+	height: 48px;
+	border:1px solid #f9aa31;
+	padding:0 15px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	background: #fff;
+}
+.shop_cart .cart_info .goods_con .custom_server ol{}
+.shop_cart .cart_info .goods_con .custom_server ol li{
+	float: left;
+	font: 18px/48px '';
+
+}
+.shop_cart .cart_info .goods_con .custom_server ol li img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -7px;
+}
+.shop_cart .cart_info .goods_con .custom_server ol li a{
+	font-weight: 700;
+	color: #f9aa33;
+}
+.shop_cart .cart_info .goods_con .custom_server ol li:nth-child(2){
+	margin-left: 20px;
+}
+.shop_cart .cart_info .goods_commerical{
+	padding:20px;
+}
+.shop_cart .cart_info .goods_commerical table{
+	margin-top: 10px;
+	width: 100%;
+}
+.shop_cart .cart_info .goods_commerical table tr{
+	height: 40px;
+}
+.shop_cart .cart_info .goods_commerical table tr td{
+	text-align: center;
+}
+.shop_cart .cart_info .goods_commerical table tr td .num_wrapper{
+	border:1px solid #ddd;
+	height:25px;
+	width: 72px;
+	margin-top: 10px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.shop_cart .cart_info .goods_commerical table tr td .num_wrapper input{
+	display: block;
+	float: left;
+	border:0;
+	width: 30px;
+	height: 25;
+	outline: none;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	font: 12px/23px '';
+}
+.shop_cart .cart_info .goods_commerical table tr td .num_wrapper span{
+	display: block;
+	float: left;
+	height: 25px;
+	text-align: center;
+	width: 20px;
+	font: 12px/25px '';
+	color: #737373;
+	border-right: 1px solid #ddd;
+	cursor: pointer;
+}
+.shop_cart .cart_info .total_shop {
+	margin-top: 20px;
+	height: 50px;
+	padding-left: 30px;
+}
+.shop_cart .cart_info .total_shop li{
+	float: left;
+	height: 100%;
+	font: 18px/50px '微软雅黑';
+	color: #000;
+	margin-right: 15px;
+}
+.shop_cart .cart_info .total_shop li strong{
+	color: #e42218;
+	font-weight: 700;
+	margin:0 5px;
+}
+.shop_cart .cart_info .total_shop li .goShop{
+	border:0;
+	outline: none;
+	background: #e42218;
+	width: 150px;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	font: 18px/50px '';
+	font-weight: 700;
+}
+.shop_cart .cart_info .total_shop li .goCart{
+	border:0;
+	outline: none;
+	background: #f9aa34;
+	width: 150px;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	font: 18px/50px '';
+	font-weight: 700;
+}
+.shop_cart .cart_info .total_shop li .goCart img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -8px;
+}
+
+

@@ -1,0 +1,130 @@
+
+
+.mid{
+	width: 1130px;
+	margin:auto;
+}
+header{
+	background: #fff;
+	height: 100px;
+}
+header img{
+	float: left;
+	margin-top: 25px;
+	width: 200px;
+	height: 50px;
+}
+.banner{
+	width: 100%;
+	height: 590px;
+	background: url('../img/login.jpg') no-repeat center;
+	background-size: cover; 
+}
+
+
+.login_container{
+	float: right;
+	width: 350px;
+	height: 470px;
+	padding:30px; 
+	margin-top: 30px;
+	background: #fff;
+	position: relative;
+}
+.login_container ul{
+	height: 30px;
+}
+.login_container ul li{
+	float: left;
+	width: 175px;
+	font: 23px/30px '';
+	
+	text-align: center;
+}
+.login_container ul li a{
+	color: #666;
+}
+.login_container ul li .active{
+	color: #f56600;
+}
+.login_container ul li:nth-child(1){
+	background: url('../img/login1.png') no-repeat right;
+}
+
+.login_container form{
+	margin-top: 40px;
+}
+.login_container input{
+	height: 48px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 15px;
+	border:1px solid #e0e0e0;
+	font: 14px/48px '';
+	color:#9d9d9d;
+	margin-bottom: 15px;
+}
+.login_container button{
+	margin-top: 15px;
+	display: block;
+	height: 50px;
+	width: 100%;
+	border-radius: 3px;
+	background: #f56600;
+	text-align: center;
+	font: 20px/50px '';
+	color: #fff;
+	border:0;
+	outline: none;
+	cursor: pointer;
+}
+
+.login_container .qita{
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #666;
+	text-align: center;
+	width: 85%;
+}
+.login_container .qita .mark{
+	font-size: 14px/16px '';
+	color: #666;
+	width: 100px;
+	background: #fff;
+	height: 16px;
+	margin:-8px auto;
+}
+.login_container .qita a{
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	margin:30px 15px;
+}
+
+
+
+footer{
+	padding-top: 40px;
+	text-align: center;
+
+}
+footer div{
+	margin-bottom: 30px;
+}
+
+footer div a{
+	font: 14px/25px 'MicroSoft yahei';
+	color: #333;
+}
+footer div span{
+	font: 14px/25px 'MicroSoft yahei';
+	color: #033300;
+	margin: 0 10px;
+}
+footer strong{
+	font: 25px/40px '';
+}
+footer p{
+	margin-top: 10px;
+	color: #033300;
+}
